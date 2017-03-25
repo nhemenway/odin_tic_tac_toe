@@ -50,6 +50,8 @@ class Game
       end
     end
     @board.show_board
+
+    ## this isn't yet working because each game creates a new player1/ player2
     puts "#{@player1.name} has #{@player1.wins} wins, #{@player1.losses} losses and #{@player1.ties} ties."
     puts "#{@player2.name} has #{@player2.wins} wins, #{@player2.losses} losses and #{@player2.ties} ties."
     puts "let's play again!"

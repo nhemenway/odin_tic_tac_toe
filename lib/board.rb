@@ -58,7 +58,7 @@ class Board
 
   def diagonal_win?
     [@board[1][1], @board[2][2], @board[0][0]].all? { |cell| cell == ('x' || 'o') } || \
-    [@board[1][1], @board[0][2], @board[2][0]].all? { |cell| cell == ('x' || 'o') } \
+    [@board[1][1], @board[0][2], @board[2][0]].all? { |cell | cell == ('x' || 'o') } \
     ? true : false
   end
 
